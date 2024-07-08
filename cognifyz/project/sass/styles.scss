@@ -1,0 +1,14 @@
+// Variables
+$primary-color: #007bff;
+$font-size-large: 24px;
+
+// Styles
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: $primary-color;
+    font-size: $font-size-large;
+}

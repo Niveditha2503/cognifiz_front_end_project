@@ -1,0 +1,44 @@
+/* Default styles */
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: green;
+    font-size: 24px;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    color: purple;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* Adjustments for medium-sized screens */
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    /* Adjustments for larger screens */
+    h1 {
+        font-size: 32px;
+    }
+}
